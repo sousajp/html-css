@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="../EXERCICIOS/ex004/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color:rgb(70, 68, 68);
+            margin: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+       
+
+        header{
+            text-indent: 50px;
+            background-color: white;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        header > h1{
+            text-align: center;
+        }
+
+        article > p{
+            text-indent: 20px;
+        }
+
+        nav{
+            background-color: rgb(114, 109, 109);
+           box-shadow: 4px 3px 3px 1px rgba(0, 0, 0, 0.192);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            margin: auto;
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        section{
+            padding: 5px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: rgb(165, 160, 160);
+            padding: 5px;
+        }
+
+        article > h1{
+            text-align: center;
+        }
+
+        article > aside{
+            background-color: rgb(114, 109, 109);
+           margin-bottom: 15px;
+        }
+
+        footer{
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias</h1>
+        <nav> 
+            <a href="#">Esporte</a> 
+            <a href="#">Entreterimento</a> 
+            <a href="#">Economia</a> 
+            <a href="#">Brasil</a>
+        </nav>
+    </header>
+    <main>
+        <section id=assuntos>
+            <article>
+                <h1>Noticia sobre o Brasil</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, suscipit enim! Eaque ipsum asperiores quibusdam suscipit, odio ab dolor maiores in esse, dolores qui! Inventore consequatur ad mollitia cumque eveniet.</p>
+                <aside>Artigo escrito por Jordeval Rosa</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por J.P.R.S
+    </footer>
+</body>
+</html>

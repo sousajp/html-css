@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+#android{
+    width: 20em;
+    padding-left: 25%;
+    margin: auto;
+}
+
+#video{
+    background-color: #1E6C41;
+    margin: 30px;
+}
+
+article#extra > h1{
+    background-color:#3ed381;
+    text-indent: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+#extra{
+    background-color: #bae9cf;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#extra > p{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    color: black;
+    font-weight: bolder;
+}
+main{
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 5px 5px 15px #4f4e509a;
+    margin: auto;
+    border-radius: 10px;  
+}
+
+#imagem1{
+    padding-left: 10%;
+    width: 20em;
+    margin: auto;
+}
+
+#imagem2{
+    margin: auto;
+}
+
+
+p{
+    text-indent: 20px;
+}
+header > h1{
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+header > p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.titulo{
+    color: #1E6C41;
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #8fd4a9, white);
+}
+
+h1{
+    color: #1E6C41;
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(to top, #1E6C41, #2a9259 );
+    /*background-color: #1E6C41*/
+    color: #fafafa;
+    padding: 20px;
+
+}
+
+nav > a{
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+body{
+    background-image: linear-gradient(to top,#84E1AD, #5eaa80);
+    /*background-color:#90fdbf;*/
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+footer{
+    background-color: #1B5936;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+#linkhistoria{
+    color: #1B5936;
+}

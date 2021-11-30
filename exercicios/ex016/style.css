@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%*/
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px #4f4e509a;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1{
+    color: #FEA443;
+    text-align: center;
+    text-shadow: 1px 1px 2px #a16628cb;
+}
+h2{
+    color: #705E78;
+}
+body{
+    background-image: linear-gradient(to top, rgb(130, 138, 127), #705E78);
+   
+/* Color Theme Swatches in Hex 
+.evening-on-the-beach-2-hex { color: #FEA443; }
+.evening-on-the-beach-4-hex { color: #A5AAA3; }
+.evening-on-the-beach-5-hex { color: #812F33; }*/
+
+
+
+}
