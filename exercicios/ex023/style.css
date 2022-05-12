@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: Caveat;
-    src: url('fonte/Caveat-Regular.ttf') format('truetype');
+    font-family: 'caveat';
+    src: url('../ex023/fonte/Caveat-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,9 +10,12 @@
 body{
     background-attachment: fixed;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'caveat';
 }
 
+main{
+    font-family: 'caveat', Verdana, Tahoma, sans-serif;
+}
 
 header{
     font-family: Arial, Helvetica, sans-serif;
@@ -45,4 +48,31 @@ footer{
     color: white;
     background-color: black;
     padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.p2{
+    color: white;
+    background-color: black;
+    background-image: url(imagens/background001.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.p4{
+    color: white;
+    background-color: black;
+    background-size: 100%;
+    background-position: center center;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+
+}
+
+.p4 > p {
+    
+    
 }
