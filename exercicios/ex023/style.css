@@ -7,6 +7,16 @@
     font-style: normal;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
 body{
     background-attachment: fixed;
     margin: auto;
@@ -24,6 +34,7 @@ header{
     color: white;
     background-color: black;
     padding: 20px;
+    padding-top: 50px;
 }
 
 a{
@@ -36,8 +47,13 @@ a:hover{
     text-decoration: underline;
 }
 
+header > h1 {
+    font-variant: small-caps;
+}
+
 header > p {
     font-size: large;
+    padding-bottom: 50px;
 }
 
 p{
@@ -51,8 +67,13 @@ footer{
     font-family: 'Courier New', Courier, monospace;
 }
 div{
-    padding: 20px;
-    padding-bottom: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+}
+
+.p1, .p3, .p5 {
+    background-color: white;
 }
 .p2{
     color: white;
@@ -60,6 +81,7 @@ div{
     background-image: url(imagens/background001.jpg);
     background-size: 100%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .p4{
@@ -72,7 +94,11 @@ div{
 
 }
 
+.p2 > p {
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 500px;
+}
 .p4 > p {
-    
-    
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.185);
 }
